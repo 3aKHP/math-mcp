@@ -1,0 +1,9 @@
+services:
+  math-mcp:
+    build: .
+    ports:
+      - "127.0.0.1:5109:5109"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=5109
+    restart: unless-stopped
