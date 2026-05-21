@@ -15,7 +15,7 @@ src/math_mcp/
 ├── _symbolic.py           # 符号计算工具 (eval, solve, calculus, manipulate)
 ├── _matrix.py             # 矩阵与线性代数
 ├── _number_theory.py      # 数论工具
-├── _statistics.py         # 统计与概率分布
+├── _stats.py              # 统计与概率分布
 └── _convert.py            # 单位换算与物理常数
 ```
 

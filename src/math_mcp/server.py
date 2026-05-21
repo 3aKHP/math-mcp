@@ -29,14 +29,14 @@ mcp = FastMCP(
 from . import _symbolic  # noqa: E402, F401
 from . import _matrix  # noqa: E402, F401
 from . import _number_theory  # noqa: E402, F401
-from . import _statistics  # noqa: E402, F401
+from . import _stats  # noqa: E402, F401
 from . import _convert  # noqa: E402, F401
 
 # 重新导出工具函数（便于测试和外部导入）
 from ._symbolic import math_eval, math_solve, math_calculus, math_manipulate  # noqa: F401
 from ._matrix import math_matrix  # noqa: F401
 from ._number_theory import math_number_theory  # noqa: F401
-from ._statistics import math_statistics  # noqa: F401
+from ._stats import math_statistics  # noqa: F401
 from ._convert import math_convert  # noqa: F401
 
 # ── 入口 ────────────────────────────────────────────────────────────────────────
