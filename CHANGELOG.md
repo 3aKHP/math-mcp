@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
+- **Package rename**: `math-mcp` → `symath-mcp` (PyPI name conflict)
 - **Modular architecture**: Split monolithic `server.py` (1317 lines) into focused modules:
   - `_parse.py`: Expression parsing and data validation utilities
   - `_symbolic.py`: Core symbolic computation tools (eval, solve, calculus, manipulate)

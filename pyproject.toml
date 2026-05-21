@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "math-mcp"
+name = "symath-mcp"
 dynamic = ["version"]
 description = "Math MCP Server — symbolic computation, calculus, linear algebra, number theory, statistics, and unit conversion via MCP"
 readme = "README.md"
@@ -52,7 +52,7 @@ Changelog = "https://github.com/3aKHP/math-mcp/blob/main/CHANGELOG.md"
 "Bug Tracker" = "https://github.com/3aKHP/math-mcp/issues"
 
 [project.scripts]
-math-mcp = "math_mcp.server:main"
+symath-mcp = "math_mcp.server:main"
 
 [tool.hatch.version]
 path = "src/math_mcp/__init__.py"

@@ -35,10 +35,10 @@ pip install -e .
 pytest tests/ -v
 
 # Run server (stdio, default)
-math-mcp
+symath-mcp
 
 # Run server (streamable-http)
-math-mcp --transport streamable-http
+symath-mcp --transport streamable-http
 
 # Syntax check
 python -m py_compile src/math_mcp/server.py

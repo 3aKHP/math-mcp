@@ -1,6 +1,6 @@
-# Math-MCP
+# Symath-MCP
 
-[![PyPI](https://img.shields.io/pypi/v/math-mcp)](https://pypi.org/project/math-mcp/)
+[![PyPI](https://img.shields.io/pypi/v/symath-mcp)](https://pypi.org/project/symath-mcp/)
 [![License: MIT](https://img.shields.io/github/license/3aKHP/math-mcp)](LICENSE)
 
 **Language / 语言:** [English](#english) | [中文](#中文)
@@ -11,14 +11,14 @@
 
 ## English
 
-Math MCP Server — symbolic computation, calculus, linear algebra, number theory, statistics, and unit conversion via the Model Context Protocol.
+Symath MCP Server — symbolic computation, calculus, linear algebra, number theory, statistics, and unit conversion via the Model Context Protocol.
 
 ### Quick Start
 
 #### stdio (Claude Desktop / Claude Code)
 
 ```bash
-pip install math-mcp
+pip install symath-mcp
 ```
 
 Add to your MCP client configuration:
@@ -27,7 +27,7 @@ Add to your MCP client configuration:
 {
   "mcpServers": {
     "math": {
-      "command": "math-mcp"
+      "command": "symath-mcp"
     }
   }
 }
@@ -36,8 +36,8 @@ Add to your MCP client configuration:
 #### Streamable HTTP (server mode)
 
 ```bash
-pip install math-mcp
-math-mcp --transport streamable-http
+pip install symath-mcp
+symath-mcp --transport streamable-http
 ```
 
 Or with Docker:
@@ -78,14 +78,14 @@ MIT
 
 ## 中文
 
-Math MCP 服务器 — 通过 Model Context Protocol 提供符号计算、微积分、线性代数、数论、统计和单位换算。
+Symath MCP 服务器 — 通过 Model Context Protocol 提供符号计算、微积分、线性代数、数论、统计和单位换算。
 
 ### 快速开始
 
 #### stdio 模式（Claude Desktop / Claude Code）
 
 ```bash
-pip install math-mcp
+pip install symath-mcp
 ```
 
 在 MCP 客户端配置中添加：
@@ -94,7 +94,7 @@ pip install math-mcp
 {
   "mcpServers": {
     "math": {
-      "command": "math-mcp"
+      "command": "symath-mcp"
     }
   }
 }
@@ -103,8 +103,8 @@ pip install math-mcp
 #### Streamable HTTP 模式（服务器）
 
 ```bash
-pip install math-mcp
-math-mcp --transport streamable-http
+pip install symath-mcp
+symath-mcp --transport streamable-http
 ```
 
 或使用 Docker：
